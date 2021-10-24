@@ -1,0 +1,80 @@
+.container{
+    height: auto;
+    width: 100%;
+    background-image: url('../images/intro-bg.jpg');
+    background-position: bottom;
+    background-size: 100% 135%;
+    background-attachment: fixed;
+}
+.overlay{
+    height: auto;
+    width: 100%;
+    background-color: rgba(32, 31, 31, 0.63);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-bottom: 6vw ;
+}
+/* .menu{
+    position: absolute;
+} */
+.content{
+    margin-top: 15vw;
+}
+.heading{
+    color: #cc005f;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2vw;
+    letter-spacing: 2.5px;
+    line-height: 4vw;
+}
+.sub_heading{
+    color: white;
+    text-align: center;
+    font-size: 7.5vw;
+    letter-spacing: 3px;
+    line-height: 6vw;
+    font-weight: 500;
+}
+.para{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 0.5vw;
+    line-height: 5.5vw;
+}
+.btn{
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1.4vw 2.7vw;
+    font-size: 1.1vw;
+    display: block;
+    font-family: "poppins-bold", sans-serif;
+    margin: 0 auto;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    
+}
+.links{
+    cursor: pointer;
+    color: white;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10vw;
+}
+.icon{
+    font-size: 2.5vw;
+}
+
+
+@media screen and (max-width:350px) {
+    .overlay{
+        height: 50vh;
+    }
+}

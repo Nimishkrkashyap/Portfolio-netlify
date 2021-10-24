@@ -1,0 +1,51 @@
+.container{
+    height: auto;
+    width: 65vw;
+    /* background-color: cadetblue; */
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.left{
+    width: 23%;
+}
+.center{
+    width: 12%;
+    height: 100%;
+}
+.icon_parent{
+    height: 3.2vw;
+    width: 3.2vw;
+    border-radius: 50%;
+    background-color: #313131;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.center .icon{
+    font-size: 1.5em;
+    color: white;
+}
+.light_line{
+    height: 9vw;
+    width: 0.5px;
+    background-color: rgba(82, 82, 82, 0.486);
+    margin: 0 auto;
+}
+.right{
+    width: 65%;
+}
+.right .heading{
+    text-align: start;
+}
+.dark_line{
+    height: 3px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 1em 0;
+}
+.right .para{
+    font-size: 1.5vw;
+}
