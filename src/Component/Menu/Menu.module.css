@@ -22,7 +22,7 @@
   padding-right: 10px;
 }
 .links_show {
-  position: absolute;
+  position: fixed;
   top: 11vh;
   left: 14%;
   width: 230px;
