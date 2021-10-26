@@ -9,7 +9,7 @@ const Menu = () => {
   const navStyle = showMenu ? menuStyle.links_show : menuStyle.links_hide;
   return (
     <>
-      <div className={menuStyle.container}>
+      {/* <div className={menuStyle.container}> */}
         <div className={menuStyle.nav}>
           <div className={menuStyle.hamburgur}  onClick={() => setShowMenu(!showMenu)}>
           {showMenu  ? <AiOutlineClose className={menuStyle.icon}/>: <GiHamburgerMenu className={menuStyle.icon}/>} 
@@ -27,7 +27,7 @@ const Menu = () => {
             <li className={menuStyle.list}>Contact</li>
           </ul>
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 };
