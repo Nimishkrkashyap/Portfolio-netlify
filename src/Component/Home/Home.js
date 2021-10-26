@@ -16,9 +16,9 @@ const Home = () => {
             <button className={homeStyle.btn}>More about me</button>
           </div>
           <div className={homeStyle.links}>
-            <a className={homeStyle.anchor} href="https://www.instagram.com/nimish_kumar_kashyap/"><FaInstagram className={homeStyle.icon} /></a>
-            <FaLinkedin className={homeStyle.icon} />
-            <FaGithub className={homeStyle.icon} />
+            <a href="https://www.instagram.com/nimish_kumar_kashyap/" target="_blank" rel="noopener noreferrer"><FaInstagram  className={homeStyle.icon}/></a>
+            <a href="https://www.linkedin.com/in/nimish-kumar-9304b41a0/" target="_blank" rel="noopener noreferrer" ><FaLinkedin className={homeStyle.icon} /></a>
+            <a href="https://github.com/Nimishkrkashyap" target="_blank" rel="noopener noreferrer"><FaGithub className={homeStyle.icon} /></a>
           </div>
         </div>
       </div>

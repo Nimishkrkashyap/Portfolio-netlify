@@ -1,6 +1,6 @@
 import React from "react";
 import aboutStyle from "./About.module.css";
-import img from "../images/profile-pic.jpg";
+import img from "../images/nimish.jpg";
 import { FaReact, FaHtml5, FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io";
 import { SiMaterialui } from "react-icons/si";
