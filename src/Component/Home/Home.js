@@ -16,7 +16,7 @@ const Home = () => {
             <button className={homeStyle.btn}>More about me</button>
           </div>
           <div className={homeStyle.links}>
-            <a href="https://www.instagram.com/nimish_kumar_kashyap/"><FaInstagram className={homeStyle.icon} /></a>
+            <a className={homeStyle.anchor} href="https://www.instagram.com/nimish_kumar_kashyap/"><FaInstagram className={homeStyle.icon} /></a>
             <FaLinkedin className={homeStyle.icon} />
             <FaGithub className={homeStyle.icon} />
           </div>

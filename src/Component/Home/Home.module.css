@@ -47,7 +47,7 @@
     letter-spacing: 0.5vw;
     line-height: 5.5vw;
 }
-a{
+.anchor{
     text-decoration: none;
     color: white;
 }
@@ -63,6 +63,9 @@ a{
     background-color: transparent;
     outline: none;
     z-index: 2;
+}
+.icon:hover{
+    color: #cc005f;
 }
 .btn_icon{
     color: white;
