@@ -62,7 +62,7 @@ a{
     color: white;
     background-color: transparent;
     outline: none;
-    
+    z-index: 2;
 }
 .btn_icon{
     color: white;
