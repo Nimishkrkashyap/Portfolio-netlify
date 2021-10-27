@@ -83,6 +83,7 @@
 @media screen and (max-width: 1400px) {
   .container {
     background-size: cover;
+    height: 100vh;
   }
   .overlay {
     height: 100vh;
