@@ -165,11 +165,12 @@
   }
   .skills .heading {
     text-align: center;
-    margin: 1rem;
+    margin: 1.2rem;
   }
   .skills .para {
     text-align: center;
     font-size: 1.7rem;
+    margin: 0.5rem;
   }
   .icon_parent{
     width: 85%;
