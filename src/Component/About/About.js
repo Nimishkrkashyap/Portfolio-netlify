@@ -26,7 +26,7 @@ const About = () => {
           <div className={aboutStyle.profile}>
             <h2 className={aboutStyle.heading}>Profile</h2>
             <p className={aboutStyle.para}>Basic details about me.</p>
-            <ul>
+            <ul className={aboutStyle.list}>
               <li className={aboutStyle.heading_secondary}>Fullname:</li>
               <li className={aboutStyle.sub_heading}>Nimish Kumar</li>
               <li className={aboutStyle.heading_secondary}>Birth Date:</li>
@@ -44,7 +44,7 @@ const About = () => {
           <div className={aboutStyle.skills}>
             <h2 className={aboutStyle.heading}>Skills</h2>
             <p className={aboutStyle.para}>What I can do.</p>
-            <ul>
+            <ul className={aboutStyle.card_parent}>
               <li className={aboutStyle.icon_parent}>
                 <FaReact className={aboutStyle.icon} />
                 <h4 className={aboutStyle.skill}>React.Js</h4>

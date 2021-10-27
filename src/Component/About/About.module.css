@@ -9,6 +9,7 @@
 .heading {
   color: #cc005f;
   font-size: 1.5vw;
+  text-transform: uppercase;
   letter-spacing: 0.15em;
   text-align: center;
   line-height: 2vw;
@@ -56,20 +57,22 @@
   width: 50%;
   /* background-color: blanchedalmond; */
 }
-.profile .heading_secondary{
-    list-style-type: none;
-    font-size: 1.35vw;
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 1.2px;
+.profile .heading_secondary {
+  list-style-type: none;
+  font-size: 1.35vw;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.2px;
 }
-.profile .sub_heading{
-    font-size: 1vw;
-    color: rgb(53, 53, 53);
-    list-style-type: none;
-    text-align: start;
-    line-height: 2vw;
-    margin-bottom: 1vw;
+.profile .sub_heading {
+  font-size: 1vw;
+  color: rgb(94, 93, 93);
+  list-style-type: none;
+  text-align: start;
+  line-height: 2vw;
+  font-weight: 300;
+  margin-bottom: 1vw;
 }
 .skills {
   width: 38%;
@@ -85,25 +88,94 @@
   text-align: start;
   color: rgb(53, 53, 53);
 }
-.skills ul li {
+.icon_parent {
   list-style-type: none;
   font-size: 1.2vw;
   padding: 0.5vw 1vw;
+  display: flex;
+  align-items: center;
+  margin: 0.6vw 0;
+  width: 15vw;
+  background-color: white;
+  box-shadow: 2px 2px 5px 2px rgba(138, 138, 138, 0.37);
 }
-.icon_parent{
-    display: flex;
-    align-items: center;
-    margin: 0.6vw 0;
-    width: 15vw;
-    background-color: white;
-    box-shadow: 2px 2px 5px 2px rgba(138, 138, 138, 0.37) ;
+.skill {
+  font-size: 1.5vw;
+  line-height: 2vw;
+  color: rgb(97, 97, 97);
+  margin-left: 1.2vw;
 }
-.skill{
-    font-size: 1.5vw;
-    line-height: 2vw;
-    color: rgb(97, 97, 97);
-    margin-left: 1.2vw;
-}
-.icon{
+.icon {
   color: rgb(98, 98, 98);
+}
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+  .sub_heading {
+    font-size: 2.6rem;
+  }
+  .image{
+    height: 12rem;
+    width: 12rem;
+  }
+  .intro {
+    flex-direction: column;
+    width: 100%;
+  }
+  .intro .para {
+    font-size: 1.7rem;
+    padding: 0 5vw;
+    line-height: 3rem;
+    text-align: center;
+    /* letter-spacing: 0.8px; */
+  }
+  .description {
+    flex-direction: column;
+    width: 100%;
+  }
+  .profile {
+    width: 100%;
+  }
+  .list {
+    margin-left: 4rem;
+  }
+  .profile .heading {
+    text-align: center;
+  }
+  .profile .para {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .profile .heading_secondary {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+  .profile .sub_heading {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .skills {
+    width: 100%;
+  }
+  .skills .heading {
+    text-align: center;
+    margin: 1rem;
+  }
+  .skills .para {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .icon_parent{
+    width: 85%;
+    font-size: 3rem;
+    margin: 0.8rem auto;
+    padding: 1rem 3rem;
+  }
+  .skill{
+    font-size: 1.7rem;
+    margin-left: 2rem;
+  }
 }

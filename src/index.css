@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  font-size: 10px;
+}
 p{
   font-family: "lora-regular", serif;
   color: rgba(82, 80, 80, 0.692);
