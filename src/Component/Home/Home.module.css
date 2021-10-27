@@ -82,13 +82,11 @@
 
 @media screen and (max-width: 1400px) {
   .container {
-    background-size: auto;
-    background-attachment: fixed;
-    background-position: bottom;
-    min-height: 100%;
+    background-size: cover;
+    min-height: 100vh;
   }
   .overlay {
-    min-height: 98vh;
+    min-height: 100vh;
   }
 }
 @media screen and (max-width: 998px) {
