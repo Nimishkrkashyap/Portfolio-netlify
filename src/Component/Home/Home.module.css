@@ -84,10 +84,10 @@
   .container {
     background-size: cover;
     background-attachment: fixed;
-    height: 110vh;
+    min-height: 120vh;
   }
   .overlay {
-    height: 110vh;
+    min-height: 120vh;
   }
 }
 @media screen and (max-width: 998px) {
