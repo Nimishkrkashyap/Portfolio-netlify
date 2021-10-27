@@ -27,12 +27,12 @@ html{
   }
 } */
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   html{
     font-size: 58%;
   }
 }
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
   html{
     font-size: 45%;
   }
