@@ -84,10 +84,10 @@
   .container {
     background-size: cover;
     background-attachment: fixed;
-    min-height: 120vh;
+    min-height: 95vh;
   }
   .overlay {
-    min-height: 120vh;
+    min-height: 100vh;
   }
 }
 @media screen and (max-width: 998px) {
@@ -96,10 +96,7 @@
     }
 }
 @media screen and (max-width: 768px) {
-    .container{
-        background-size: 100% auto;
-    }
-  .content .heading {
+    .content .heading {
     font-size: 2rem;
   }
   .sub_heading {
