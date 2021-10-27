@@ -96,6 +96,9 @@
     }
 }
 @media screen and (max-width: 768px) {
+    .container{
+        background-size: 100% auto;
+    }
   .content .heading {
     font-size: 2rem;
   }
