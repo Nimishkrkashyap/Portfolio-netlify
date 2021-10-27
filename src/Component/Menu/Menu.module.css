@@ -65,6 +65,11 @@
   color: #cc005f;
 }
 
+@media (max-width:998px){
+  .links_show{
+    top: 7rem;
+  }
+}
 @media (max-width:768px){
   .nav{
     height: 7.5rem;
