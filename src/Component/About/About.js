@@ -15,10 +15,7 @@ const About = () => {
           <div className={aboutStyle.intro}>
             <img src={img} alt="img" className={aboutStyle.image} />
             <p className={aboutStyle.para}>
-              Lorem ipsum Exercitation culpa qui dolor consequat exercitation
-              fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure
-              sunt id pariatur Duis laboris amet exercitation veniam labore
-              consectetur ea id quis eiusmod.
+            I am Nimish Kumar, I am a frontEnd developer right now I am mastering React.Js. I have good Knowledge of Javascript, HTML, CSS, Bootstrap, Material - Ui And basic understanding of Node.js, Express.Js and MongoDb of also.
             </p>
           </div>
         </div>

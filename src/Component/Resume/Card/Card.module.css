@@ -40,7 +40,7 @@
     color: white;
 }
 .light_line{
-    height: 11vw;
+    height: 9.5vw;
     width: 1px;
     background-color: rgba(82, 82, 82, 0.103);
     margin: 0 auto;
@@ -51,11 +51,14 @@
 .heading{
     text-align: start;
     font-weight: 500;
-    
+    font-size: 2rem;
+    color: #313131;
 }
 .sub_heading{
     font-weight: 400;
     display: inline-block;
+    font-size: 1.7rem;
+    color: #888888;
 }
 .dark_line_desktop{
     height: 3px;
@@ -68,6 +71,7 @@
 }
 .right .para{
     font-size: 1.5vw;
+    color: #888888;
 }
 
 @media (max-width: 768px) {
@@ -115,7 +119,7 @@
         display: none;
     }
     .right{
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         width: 100%;
     }
     .right .para{
