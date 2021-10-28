@@ -27,9 +27,9 @@
     font-size: 1.1vw;
     font-family: "poppins-bold", sans-serif;
     margin: 0 auto;
-    color: #c0aeb6;
+    color: #ffffff;
     outline: none;
-    background: #ccbabc;
+    background: #ffffff;
     border: 2px solid transparent;
     border-radius: 0;
     box-shadow: inset 0 0 0 50px #EF233C;
@@ -48,4 +48,26 @@
     width: 84vw;
     /* background-color: rgb(43, 226, 89); */
     margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .card_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading{
+        font-size: 1.7rem;
+    }
+    .sub_heading{
+        font-size: 1.3rem;
+        margin: 0.5rem 0;
+    }
+    .btn{
+        border: 1px solid transparent;
+        font-size: 1.1rem;
+        padding: 0.7rem 1.7rem;
+    }
+    .buttons{
+        width: 52vw;
+        margin: 1.2rem auto;
+    }
 }

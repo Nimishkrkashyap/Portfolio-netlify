@@ -52,3 +52,27 @@
 .card_parent:hover .icon{
     color: #cc005f;
 }
+
+@media (max-width: 768px) {
+    .container{
+        width: 90vw;
+        height: 47vw;
+        margin-bottom: 7rem;
+    }
+    .description{
+        width: 80vw;
+        height: 10vw;
+        left: 5.5%;
+        padding: 0 2.5rem;
+    }
+    .heading{
+        font-size: 1.7rem;
+    }
+    .card_parent{
+        height: 5rem;
+        width: 5rem;
+    }
+    .icon{
+        font-size: 2rem;
+    }
+}
