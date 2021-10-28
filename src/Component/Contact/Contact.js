@@ -47,16 +47,15 @@ const Contact = () => {
       </div>
       <div className={contactStyle.bootom_section}>
         <div className={contactStyle.copyright}>
-          <FaRegCopyright className={contactStyle.copyright_icon} />{" "}
+          <FaRegCopyright className={contactStyle.copyright_icon} />
           <span className={contactStyle.copyright_line}>
             Copyright portfolio 2021 | Developed by Nimish Kumar
           </span>
         </div>
         <div className={contactStyle.links}>
-            <FaFacebookF className={contactStyle.icon}/>
-            <FaInstagram className={contactStyle.icon}/>
-            <FaLinkedin className={contactStyle.icon}/>
-            <FaGithub className={contactStyle.icon}/>
+        <a href="https://www.instagram.com/nimish_kumar_kashyap/" target="_blank" rel="noopener noreferrer"><FaInstagram  className={contactStyle.icon}/></a>
+            <a href="https://www.linkedin.com/in/nimish-kumar-9304b41a0/" target="_blank" rel="noopener noreferrer" ><FaLinkedin className={contactStyle.icon} /></a>
+            <a href="https://github.com/Nimishkrkashyap" target="_blank" rel="noopener noreferrer"><FaGithub className={contactStyle.icon} /></a>
           </div>
       </div>
     </>
