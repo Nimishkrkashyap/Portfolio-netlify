@@ -65,6 +65,9 @@
 .icon{
     font-size: 1.5vw;
 }
+.links .icon{
+    margin-right: 1.5rem;
+}
 
 @media (max-width: 768px) {
     .bottom{
@@ -75,28 +78,29 @@
         font-size: 3.2rem;
     }
     .heading{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
         margin: 1.2rem 0;
     }
     .heading_secondary{
-        font-size: 1.3rem;
+        font-size: 1rem;
         padding: 0.5rem 0;
     }
     .left, .center, .right{
         margin-bottom: 3rem;
     }
     .links a{
-        margin: 0 1rem;
+        margin: 0 0.7rem;
     }
     .links .icon{
-        font-size: 2.5rem;
+        font-size: 2rem;
+        margin-right: 0.2rem;
     }
     .copyright_line, .copyright_icon{
-        font-size: 0.8rem;
-        text-align: center;
-        margin-right: 0.5rem;
+        font-size: 0.7rem;
+        /* text-align: center; */
+        margin-right: 0.3rem;
     }
     .bootom_section{
-        padding: 2rem 2rem;
+        padding: 2rem 1rem;
     }
 }
