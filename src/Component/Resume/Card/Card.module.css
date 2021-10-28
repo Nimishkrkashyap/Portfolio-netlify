@@ -61,6 +61,7 @@
     .container{
         flex-direction: column;
         justify-content: flex-start;
+        position: relative;
     }
     .left{
         width: 100%;
@@ -83,9 +84,17 @@
     }
     .center{
         position: absolute;
-        left: 0;
-        height: 23rem;
+        left: -18%;
+        height: 100%;
         overflow: hidden;
+    }
+    .center .icon_parent{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .center .icon{
+        height: 1.5rem;
+        width: 1.5rem;
     }
     .center .light_line{
         height: 220px;
