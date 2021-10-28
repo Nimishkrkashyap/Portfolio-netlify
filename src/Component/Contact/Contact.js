@@ -3,7 +3,7 @@ import contactStyle from "./Contact.module.css";
 import { GoLocation } from "react-icons/go";
 import { HiOutlineMail } from "react-icons/hi";
 import { IoCallOutline } from "react-icons/io5";
-import { FaRegCopyright, FaFacebookF, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaRegCopyright, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
