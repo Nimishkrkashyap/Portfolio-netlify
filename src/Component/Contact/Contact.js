@@ -8,7 +8,7 @@ import { FaRegCopyright, FaInstagram, FaLinkedin, FaGithub } from "react-icons/f
 const Contact = () => {
   return (
     <>
-      <div className={contactStyle.container}>
+      <div className={contactStyle.container} id="Contact">
         <h3 className={contactStyle.heading}>Contact Us</h3>
         <h4 className={contactStyle.sub_heading}>I'd Love To Hear From You.</h4>
         <div className={contactStyle.bottom}>

@@ -16,6 +16,9 @@
   flex-direction: column;
   padding-bottom: 6vw;
 }
+.active{
+  color: #cc005f;
+}
 /* .menu{
     position: absolute;
 } */
@@ -63,6 +66,7 @@
   background-color: transparent;
   outline: none;
   z-index: 2;
+  letter-spacing: 0.13rem;
 }
 .icon:hover {
   color: #cc005f;
@@ -108,6 +112,9 @@
   }
   .btn {
     margin-top: 2rem;
+    font-size: 1.3rem;
+    padding: 1.4rem 2.7rem;
+    letter-spacing: 0.1rem;
   }
   .links a{
       font-size: 2.8rem;

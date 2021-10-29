@@ -17,7 +17,7 @@
 }
 .buttons{
     display: flex;
-    width: 40vw;
+    width: 27vw;
     margin: 0 auto;
 }
 .btn{
@@ -45,10 +45,18 @@
 }
 .card_container{
     display: flex;
-    width: 84vw;
-    /* background-color: rgb(43, 226, 89); */
-    margin: 0 auto;
+    width: 98vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem auto;
 }
+
+@media (max-width: 998px) {
+    .container{
+        padding-bottom: -8rem;
+    }
+}
+
 @media (max-width: 768px) {
     .card_container{
         flex-direction: column;
@@ -67,7 +75,7 @@
         padding: 0.7rem 1.7rem;
     }
     .buttons{
-        width: 52vw;
+        width: 26rem;
         margin: 1.2rem auto;
     }
 }

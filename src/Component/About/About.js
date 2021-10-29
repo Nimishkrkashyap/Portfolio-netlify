@@ -8,7 +8,7 @@ import { SiMaterialui } from "react-icons/si";
 const About = () => {
   return (
     <>
-      <div className={aboutStyle.container}>
+      <div className={aboutStyle.container} id="About">
         <div className={aboutStyle.main_section}>
           <h3 className={aboutStyle.heading}>About</h3>
           <h1 className={aboutStyle.sub_heading}>Let me introduce myself.</h1>
@@ -31,7 +31,7 @@ const About = () => {
               <li className={aboutStyle.heading_secondary}>Post:</li>
               <li className={aboutStyle.sub_heading}>Frontend Developer</li>
               <li className={aboutStyle.heading_secondary}>Website:</li>
-              <li className={aboutStyle.sub_heading}>www.nimish.tk</li>
+              <li className={aboutStyle.sub_heading}>www.developernimish.tk</li>
               <li className={aboutStyle.heading_secondary}>Email:</li>
               <li className={aboutStyle.sub_heading}>
                 nimishkumar9534@gmail.com

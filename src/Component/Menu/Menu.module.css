@@ -10,6 +10,9 @@
   background-color: rgb(0, 0, 0);
   z-index: 9;
 }
+.active{
+  color: #cc005f;
+}
 .hamburgur .icon {
   color: #cc005f;
   font-size: 10rem;

@@ -1,9 +1,10 @@
 .container{
-    height: 18vw;
-    width: 28vw;
+    height: 16vw;
+    width: 31.7vw;
     background-color: blueviolet;
-    margin: 1vw;
+    margin: 0.4vw;
     position: relative;
+    margin-bottom: 5rem;
 }
 .image{
     height: 100%;
@@ -11,12 +12,12 @@
 }
 .description{
     position: absolute;
-    bottom: -10%;
-    left: 7.7%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 2px 2px 5px 2px rgba(138, 138, 138, 0.37) ;
-    height: 5vw;
-    width: 22vw;
+    bottom: -11%;
+    left: 8%;
+    background-color: rgb(202, 202, 202);
+    box-shadow: 2px 2px 5px 2px rgb(165, 165, 165) ;
+    height: 4vw;
+    width: 26vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,14 +30,15 @@
     color: #cc005f;
 }
 .card_parent{
-    height: 4vw;
-    width: 4vw;
+    height: 3vw;
+    width: 3vw;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     background: white;
     box-shadow: inset 0 0 0 50px #cc005f;
+    border: 1px solid transparent;
     transition: ease-out 0.3s;
     /* -webkit-transition: ease-out 0.3s; */
     /* -moz-transition: ease-out 0.3s; */
@@ -48,15 +50,28 @@
 .card_parent:hover{
     box-shadow: inset 0 0 0 0 #cc005f;
     background: transparent;
+    border-color: #cc005f;
 }
 .card_parent:hover .icon{
     color: #cc005f;
 }
 
+@media (max-width: 998px) {
+    .container{
+        height: 26vw;
+        width: 47vw;
+    }
+    .description{
+        width: 42vw;
+        height: 6vw;
+        left: 5%;
+        padding: 0 2.5rem;
+    }
+}
 @media (max-width: 768px) {
     .container{
-        width: 90vw;
-        height: 47vw;
+        width: 92vw;
+        height: 44vw;
         margin-bottom: 7rem;
     }
     .description{
@@ -74,5 +89,19 @@
     }
     .icon{
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .card_parent{
+        height: 3.8rem;
+        width: 3.8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .card_parent{
+        height: 3.2rem;
+        width: 3.2rem;
     }
 }

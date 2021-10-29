@@ -15,7 +15,7 @@ export const ResumeData = [
         year:"2022",
         title:"B.Tech(CSE)",
         title_two: "Graduation",
-        details:"I am persuing my Graduation in 7th sem, From Rajiv Gandhi Technical University (Bhopal)"
+        details:"I am persuing my Graduation in Final Year, From Rajiv Gandhi Technical University (Bhopal)"
     },
     {
         year:"2019(Jan)",

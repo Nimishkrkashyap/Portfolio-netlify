@@ -1,18 +1,19 @@
 import React from 'react'
 import cardStyle from './Card.module.css'
 import {AiOutlinePlus} from 'react-icons/ai'
-import img from '../../images/portfolio/brochure.PNG'
 
-const card = () => {
+const card = ({ImgSrc, Heading, Link}) => {
     return (
         <>
             <div className={cardStyle.container}>
-            <img src={img} alt="portfolio" className={cardStyle.image}/>
+            <img src={ImgSrc} alt="portfolio" className={cardStyle.image}/>
                 <div className={cardStyle.description}>
-                    <h3 className={cardStyle.heading}>javacript quiz game</h3>
+                    <h3 className={cardStyle.heading}>{Heading}</h3>
+                    <a href={Link}>
                     <div className={cardStyle.card_parent}>
                     <AiOutlinePlus className={cardStyle.icon}/>
                     </div>
+                    </a>
                 </div>
             </div>
         </>
